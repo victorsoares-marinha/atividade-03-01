@@ -1,0 +1,25 @@
+/* 3. Reset CSS no início (margem e espaçamento) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. Elemento de bloco (div) */
+div {
+  width: 400px;
+  height: 200px;
+  margin: 20px 10px;
+  padding: 30px;
+  border: 4px solid #e74c3c;
+  background-color: #f39c12;
+  border-radius: 15px;
+}
+
+/* 2. Dois elementos em linha (span) */
+span {
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 2px dashed #3498db;
+  letter-spacing: 1px;
+}
